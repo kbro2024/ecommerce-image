@@ -1,6 +1,6 @@
 {
   "title": "夏季连衣裙",
-  "status": "draft_ready",
+  "status": "modify",
   "created_by": "ou_mock_user_123",
   "created_at": "2026-04-30T17:31:07.702331",
   "draft_path": "/home/admin/visual-materials/output/us-20260430-002/draft-001.png",
@@ -11,5 +11,9 @@
     "reason": "Mock review - image looks good",
     "suggestion": ""
   },
-  "judged_at": "2026-04-30T17:31:08.212001"
+  "judged_at": "2026-04-30T17:31:08.212001",
+  "review_sent_at": "2026-04-30T17:31:08.220582",
+  "review_sent_to": "ou_mock_user_123",
+  "feishu_message_id": "mock-msg-12345",
+  "modify_feedback": "背景改成浅蓝色渐变"
 }
