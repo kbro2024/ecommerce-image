@@ -5,5 +5,11 @@
   "created_at": "2026-04-30T17:31:07.702331",
   "draft_path": "/home/admin/visual-materials/output/us-20260430-002/draft-001.png",
   "draft_version": 1,
-  "generated_at": "2026-04-30T17:31:07.703063"
+  "generated_at": "2026-04-30T17:31:07.703063",
+  "judge_result": {
+    "pass": true,
+    "reason": "Mock review - image looks good",
+    "suggestion": ""
+  },
+  "judged_at": "2026-04-30T17:31:08.212001"
 }
