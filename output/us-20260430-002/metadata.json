@@ -8,15 +8,17 @@
   "generated_at": "2026-05-01T11:24:27.281421",
   "judge_result": {
     "pass": true,
-    "reason": "Mock review - image looks good",
-    "suggestion": ""
+    "reason": "无",
+    "suggestion": "无"
   },
-  "judged_at": "2026-04-30T17:31:08.739759",
+  "judged_at": "2026-05-01T11:48:44.384020",
   "review_sent_at": "2026-04-30T17:31:08.748003",
   "review_sent_to": "ou_mock_user_123",
   "feishu_message_id": "mock-msg-12345",
   "modify_feedback": "背景改成浅蓝色渐变",
   "approved_at": "2026-04-30T17:31:08.748487",
   "retry_count": 0,
-  "image_provider": "nvidia"
+  "image_provider": "nvidia",
+  "judge_attempts": 1,
+  "judge_provider": "nvidia"
 }
