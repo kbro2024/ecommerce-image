@@ -1,6 +1,6 @@
 {
   "title": "制作海报图片：夏天海边的一壶功夫茶",
-  "status": "JUDGE_LLM",
+  "status": "AWAITING_REVIEW",
   "created_by": "ou_de5d301bac9ae22097273383bcc397bb",
   "created_at": "2026-05-01T18:08:29.626554",
   "user_message": "制作海报图片：夏天海边的一壶功夫茶",
@@ -19,5 +19,7 @@
   },
   "judged_at": "2026-05-01T18:09:56.545273",
   "needs_human_intervention": true,
-  "judge_final_result": "FAIL"
+  "judge_final_result": "FAIL",
+  "review_sent_at": "2026-05-01T18:10:03.702507",
+  "review_sent_to": "ou_de5d301bac9ae22097273383bcc397bb"
 }
