@@ -59,17 +59,51 @@ def cmd_start(message: str, user_open_id: str) -> str:
     print(f"[Start] story={story_id}")
     print(f"[Start] message={message}")
 
-    # 创建 inbox story 文件
+    # 从用户消息中解析 platforms 和 requirements
+    # platforms: 常见平台关键词检测
+    platform_keywords = {
+        '朋友圈': '朋友圈',
+        '小红书': '小红书',
+        '公众号': '公众号',
+        '抖音': '抖音',
+        '微博': '微博',
+        'Instagram': 'Instagram',
+        '淘宝': '淘宝',
+        '天猫': '天猫',
+        '京东': '京东',
+        '线下': '线下印刷',
+    }
+    detected_platforms = [v for k, v in platform_keywords.items() if k in message]
+    platforms_str = ', '.join(detected_platforms) if detected_platforms else '待定'
+
+    # requirements: 消息主体（去掉 title 后的内容）
+    title = message[:50].strip()
+    requirements_text = message.strip()
+
+    # 创建 inbox story 文件（含 YAML frontmatter，供 judge-llm 提取需求字段）
     inbox_dir = REPO_ROOT / 'inbox'
     inbox_dir.mkdir(parents=True, exist_ok=True)
     story_file = inbox_dir / f'{story_id}.md'
-    story_file.write_text(f"# User Story: {story_id}\n\n{message}\n", encoding='utf-8')
+    frontmatter = f"""---
+title: {title}
+platforms: {platforms_str}
+requirements: |
+  {requirements_text}
+---
+
+# User Story: {story_id}
+
+{message}
+"""
+    story_file.write_text(frontmatter, encoding='utf-8')
 
     # 初始化 metadata
     output_dir = REPO_ROOT / 'output' / story_id
     output_dir.mkdir(parents=True, exist_ok=True)
     metadata = {
-        'title': message[:50],
+        'title': title,
+        'platforms': platforms_str,
+        'requirements': requirements_text,
         'status': 'PENDING',
         'created_by': user_open_id,
         'created_at': datetime.now().isoformat(),
