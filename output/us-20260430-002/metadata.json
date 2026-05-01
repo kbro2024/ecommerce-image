@@ -7,11 +7,11 @@
   "draft_version": 3,
   "generated_at": "2026-05-01T11:24:27.281421",
   "judge_result": {
-    "pass": true,
-    "reason": "无",
-    "suggestion": "无"
+    "pass": false,
+    "reason": "图片中的产品品类、颜色、风格与要求不一致。图片中显示的产品为一款美容产品，而要求中未指定产品详情。图片中的价格、规格、促销语等文字不清晰，且有乱码或错字。图片的尺寸、分辨率不符合要求。图片的背景、构图、色调不在合理范围内，且有明显的AI生成瑕疵、拼接错误、模糊或变形。",
+    "suggestion": "建议重新生成图片，确保产品品类、颜色、风格与要求一致。确保价格、规格、促销语等文字清晰准确，避免乱码或错字。确保图片的尺寸、分辨率符合要求。确保图片的背景、构图、色调在合理范围内，避免AI生成瑕疵、拼接错误、模糊或变形。"
   },
-  "judged_at": "2026-05-01T11:48:44.384020",
+  "judged_at": "2026-05-01T11:53:05.143625",
   "review_sent_at": "2026-04-30T17:31:08.748003",
   "review_sent_to": "ou_mock_user_123",
   "feishu_message_id": "mock-msg-12345",
@@ -19,6 +19,8 @@
   "approved_at": "2026-04-30T17:31:08.748487",
   "retry_count": 0,
   "image_provider": "nvidia",
-  "judge_attempts": 1,
-  "judge_provider": "nvidia"
+  "judge_attempts": 3,
+  "judge_provider": "nvidia",
+  "needs_human_intervention": true,
+  "judge_final_result": "FAIL"
 }
