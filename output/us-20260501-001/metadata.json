@@ -1,14 +1,23 @@
 {
   "title": "画海报图片：夏天的冰可乐",
-  "status": "draft_ready",
+  "status": "JUDGE_LLM",
   "created_by": "ou_de5d301bac9ae22097273383bcc397bb",
   "created_at": "2026-05-01T18:04:17.920229",
   "user_message": "画海报图片：夏天的冰可乐",
   "retry_count": 0,
   "image_provider": "nvidia",
   "judge_provider": "nvidia",
-  "updated_at": "2026-05-01T18:04:20.053104",
+  "updated_at": "2026-05-01T18:04:22.473211",
   "draft_path": "/home/admin/ecommerce-image/output/us-20260501-001/draft-001.png",
   "draft_version": 1,
-  "generated_at": "2026-05-01T18:04:22.322354"
+  "generated_at": "2026-05-01T18:04:22.322354",
+  "judge_attempts": 3,
+  "judge_result": {
+    "pass": false,
+    "reason": "1. 文字准确性严重问题：图片顶部、产品包装及底部所有的文字均为AI生成的乱码/伪文字伪像，无实际含义，且存在大量错字和形变。 2. 审美基线问题：产品包装两侧的支撑物形体诡异，且产品包装本身的边缘有明显的AI生成瑕疵。",
+    "suggestion": "1. 将所有乱码文字替换为真实的品牌名、产品名及促销文案。 2. 修正产品包装两侧的形体，确保物理结构合理。 3. 优化文字的排版与字体，确保清晰可读。\n```"
+  },
+  "judged_at": "2026-05-01T18:05:29.513870",
+  "needs_human_intervention": true,
+  "judge_final_result": "FAIL"
 }
