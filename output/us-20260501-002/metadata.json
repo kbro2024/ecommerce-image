@@ -1,14 +1,23 @@
 {
   "title": "制作海报图片：夏天海边的一壶功夫茶",
-  "status": "draft_ready",
+  "status": "JUDGE_LLM",
   "created_by": "ou_de5d301bac9ae22097273383bcc397bb",
   "created_at": "2026-05-01T18:08:29.626554",
   "user_message": "制作海报图片：夏天海边的一壶功夫茶",
   "retry_count": 0,
   "image_provider": "nvidia",
   "judge_provider": "nvidia",
-  "updated_at": "2026-05-01T18:08:29.673543",
+  "updated_at": "2026-05-01T18:08:32.286517",
   "draft_path": "/home/admin/ecommerce-image/output/us-20260501-002/draft-001.png",
   "draft_version": 1,
-  "generated_at": "2026-05-01T18:08:32.216151"
+  "generated_at": "2026-05-01T18:08:32.216151",
+  "judge_attempts": 3,
+  "judge_result": {
+    "pass": false,
+    "reason": "文字准确性极差。图片中所有文本（标题、产品名称、价格、底部文字）均出现严重的AI乱码/伪文字现象，完全不可读且无实际意义。同时，产品包装上的文字亦为乱码。",
+    "suggestion": "请重新生成图片，并使用设计工具（如Photoshop, Canva或Figma）手动添加准确的中文/英文文本，确保文字清晰、无误且符合排版逻辑。\n```"
+  },
+  "judged_at": "2026-05-01T18:09:56.545273",
+  "needs_human_intervention": true,
+  "judge_final_result": "FAIL"
 }
