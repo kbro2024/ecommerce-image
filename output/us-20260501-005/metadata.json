@@ -1,16 +1,16 @@
 {
   "title": "画海报图片：夏天的冰可乐",
-  "status": "JUDGE_LLM",
+  "status": "draft_ready",
   "created_by": "ou_de5d301bac9ae22097273383bcc397bb",
   "created_at": "2026-05-01T17:25:05.902949",
   "user_message": "画海报图片：夏天的冰可乐",
   "retry_count": 0,
   "image_provider": "nvidia",
   "judge_provider": "nvidia",
-  "updated_at": "2026-05-01T17:26:45.444707",
-  "draft_path": "/home/admin/visual-materials/output/us-20260501-005/draft-042.png",
-  "draft_version": 42,
-  "generated_at": "2026-05-01T17:26:45.377518",
+  "updated_at": "2026-05-01T17:26:45.513987",
+  "draft_path": "/home/admin/visual-materials/output/us-20260501-005/draft-043.png",
+  "draft_version": 43,
+  "generated_at": "2026-05-01T17:26:47.626318",
   "needs_human_intervention": true,
   "judge_final_result": "FAIL"
 }
