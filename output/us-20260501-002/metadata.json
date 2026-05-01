@@ -1,10 +1,14 @@
 {
   "title": "测试女装主图，浅蓝色背景，白色裙子",
-  "status": "PENDING",
+  "status": "draft_ready",
   "created_by": "ou_de5d301bac9ae22097273383bcc397bb",
   "created_at": "2026-05-01T13:08:28.116270",
   "user_message": "测试女装主图，浅蓝色背景，白色裙子",
   "retry_count": 0,
   "image_provider": "nvidia",
-  "judge_provider": "nvidia"
+  "judge_provider": "nvidia",
+  "updated_at": "2026-05-01T13:08:28.149380",
+  "draft_path": "/home/admin/visual-materials/output/us-20260501-002/draft-001.png",
+  "draft_version": 1,
+  "generated_at": "2026-05-01T13:08:31.120060"
 }
