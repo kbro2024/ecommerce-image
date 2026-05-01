@@ -3,17 +3,20 @@
   "status": "draft_ready",
   "created_by": "ou_mock_user_123",
   "created_at": "2026-04-30T17:31:07.702331",
-  "draft_path": "/home/admin/visual-materials/output/us-20260430-002/draft-002.png",
-  "draft_version": 2,
-  "generated_at": "2026-04-30T17:31:08.230733",
+  "draft_path": "/home/admin/visual-materials/output/us-20260430-002/draft-003.png",
+  "draft_version": 3,
+  "generated_at": "2026-05-01T11:24:27.281421",
   "judge_result": {
     "pass": true,
     "reason": "Mock review - image looks good",
     "suggestion": ""
   },
   "judged_at": "2026-04-30T17:31:08.739759",
-  "review_sent_at": "2026-04-30T17:31:08.220582",
+  "review_sent_at": "2026-04-30T17:31:08.748003",
   "review_sent_to": "ou_mock_user_123",
   "feishu_message_id": "mock-msg-12345",
-  "modify_feedback": "背景改成浅蓝色渐变"
+  "modify_feedback": "背景改成浅蓝色渐变",
+  "approved_at": "2026-04-30T17:31:08.748487",
+  "retry_count": 0,
+  "image_provider": "nvidia"
 }
