@@ -1,0 +1,10 @@
+{
+  "title": "护肤霜",
+  "status": "PENDING",
+  "created_by": "ou_de5d301bac9ae22097273383bcc397bb",
+  "created_at": "2026-05-01T13:24:56.810145",
+  "user_message": "护肤霜",
+  "retry_count": 0,
+  "image_provider": "nvidia",
+  "judge_provider": "nvidia"
+}
