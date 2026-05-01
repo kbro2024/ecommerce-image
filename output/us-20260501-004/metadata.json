@@ -1,14 +1,23 @@
 {
   "title": "SK2护肤产品",
-  "status": "draft_ready",
+  "status": "JUDGE_LLM",
   "created_by": "ou_de5d301bac9ae22097273383bcc397bb",
   "created_at": "2026-05-01T16:18:57.410626",
   "user_message": "SK2护肤产品",
   "retry_count": 0,
   "image_provider": "nvidia",
   "judge_provider": "nvidia",
-  "updated_at": "2026-05-01T16:18:57.455456",
+  "updated_at": "2026-05-01T16:19:00.189248",
   "draft_path": "/home/admin/visual-materials/output/us-20260501-004/draft-001.png",
   "draft_version": 1,
-  "generated_at": "2026-05-01T16:19:00.132326"
+  "generated_at": "2026-05-01T16:19:00.132326",
+  "judge_attempts": 3,
+  "judge_result": {
+    "pass": false,
+    "reason": "文字准确性严重不合格。图片中所有的文本（包括顶部的数字、中间的文字以及产品上的Logo）均出现严重的AI乱码/伪文字现象，无法阅读且无实际意义。",
+    "suggestion": "请重新生成图片，确保文字内容准确无误，或在生成后使用设计软件将正确的品牌名称和促销文字进行覆盖替换。\n```"
+  },
+  "judged_at": "2026-05-01T16:19:20.594321",
+  "needs_human_intervention": true,
+  "judge_final_result": "FAIL"
 }
