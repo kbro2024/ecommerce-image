@@ -1,15 +1,24 @@
 {
   "title": "测试女装主图，浅蓝色背景，白色裙子",
-  "status": "draft_ready",
+  "status": "awaiting_review",
   "created_by": "ou_de5d301bac9ae22097273383bcc397bb",
   "created_at": "2026-05-01T13:08:28.116270",
   "user_message": "测试女装主图，浅蓝色背景，白色裙子",
   "retry_count": 0,
   "image_provider": "nvidia",
   "judge_provider": "nvidia",
-  "updated_at": "2026-05-01T13:08:31.188316",
+  "updated_at": "2026-05-01T16:53:42.506410",
   "draft_path": "/home/admin/visual-materials/output/us-20260501-002/draft-002.png",
   "draft_version": 2,
   "generated_at": "2026-05-01T16:53:42.443417",
-  "modify_feedback": "背景换成浅蓝色"
+  "modify_feedback": "背景换成浅蓝色",
+  "judge_attempts": 1,
+  "judge_result": {
+    "pass": false,
+    "reason": "1. 文字准确性：图片中出现大量AI生成的乱码文字（如 \"Monlemil Icatleeanne\", \"NP Cjole Jie2 2.0e1\", \"T300Droal\" 等），完全无法阅读且无实际意义。\n2. 审美基线：产品结构出现AI生成瑕疵，产品部件衔接不自然，细节处存在形变。",
+    "suggestion": "1. 将所有乱码文字替换为真实的产品名称、规格及品牌名称。\n2. 修正产品模型的形变，确保产品结构符合物理逻辑，消除AI生成导致的伪影和拼接错误。\n```"
+  },
+  "judged_at": "2026-05-01T16:53:51.690667",
+  "review_sent_at": "2026-05-01T16:58:05.944890",
+  "review_sent_to": "ou_de5d301bac9ae22097273383bcc397bb"
 }
